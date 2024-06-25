@@ -104,3 +104,81 @@ nav ul li a.cta {
         margin-top: 20px;
     }
 }
+
+/* Existing styles */
+
+/* About Us Styles */
+.about-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: url('../images/about-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.about-hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.about-hero-content p {
+    font-size: 24px;
+}
+
+.mission, .team, .values {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.mission h2, .team h2, .values h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.team-member p {
+    margin: 5px 0;
+}
+
+.values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .team {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
