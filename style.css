@@ -182,3 +182,72 @@ nav ul li a.cta {
     }
 }
 
+/* Existing styles */
+
+/* Contact Us Styles */
+.contact-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: url('../images/contact-hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.contact-hero-content p {
+    font-size: 24px;
+}
+
+.contact-form {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+form button {
+    background-color: #00b894;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+}
